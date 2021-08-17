@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HomePage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.min.css" integrity="sha512-FEQLazq9ecqLN5T6wWq26hCZf7kPqUbFC9vsHNbXMJtSZZWAcbJspT+/NEAQkBfFReZ8r9QlA9JHaAuo28MTJA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="homepage.css">
+  <link rel="stylesheet" href="footer.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href=""><img src="logo.png" id="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#"></a>
+      </li>
+    </ul>
+	<ul class="navbar-nav mr-5 float-right">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          	<img src="myphoto.jpeg"  class="rounded-circle" id="profile">
+		</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="profile.html">Profile</a>
+          <a class="dropdown-item" href="mylearning.html">My Learning</a>
+          <a class="dropdown-item" href="enrolled.html">In Progress</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="index.html">Logout</a>
+        </div>
+      </li>
+	 </ul> 
+  </div>
+</nav>
+
+<br><br><br><br>
+<div class="container">
+	<h2 class="text-primary">Best Seller</h2>
+	<div class="row ml-4">
+		<div class="card-columns">
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="python.jpg" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+					<button type="button" class="float-right btn btn-dark">$60 <small><strike>$100</strike></small> <span class="badge badge-light">40% Off</span></button>
+
+					<h4 class="card-title">Python</h4>
+						<p class="card-text">Python is an interpreted high-level general-purpose programming language.</p>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+		
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="js.jpg" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+				<button type="button" class="float-right btn btn-dark">$10 <small><strike>$200</strike></small> <span class="badge badge-light">95% Off</span></button>
+					<h4 class="card-title">JS</h4>
+						<p class="card-text">JavaScript is a programming language that conforms to the ECMAScript specification. </p>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+			
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="php.jfif" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+				<button type="button" class="float-right btn btn-dark">$250 <small><strike>$500</strike></small> <span class="badge badge-light">50% Off</span></button>
+					<h4 class="card-title">Php</h4>
+						<p class="card-text">PHP is a general-purpose scripting language geared towards web development. </p>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+	<br><br>
+	<h2 class="text-primary">Trending</h2>
+	
+	<div class="row ml-4">
+		<div class="card-columns">
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="chash.jpg" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+					<button type="button" class="float-right btn btn-dark">$160 <small><strike>$200</strike></small> <span class="badge badge-light">10% Off</span></button>
+					<h4 class="card-title">C#</h4>
+						<p class="card-text">C# is a general-purpose, multi-paradigm programming language encompassing static typing, strong typing,functional, generic, object-oriented programming disciplines.</p>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+		
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="css.jpg" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+				<button type="button" class="float-right btn btn-dark">$100 <small><strike>$200</strike></small> <span class="badge badge-light">50% Off</span></button>
+				<h4 class="card-title">CSS</h4>
+						<p class="card-text">C# is a general-purpose, multi-paradigm programming language encompassing static typing, object-oriented, and component-oriented programming disciplines.</p>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+			
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="bootstrap.jpg" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+				<button type="button" class="float-right btn btn-dark">$10 <small><strike>$200</strike></small> <span class="badge badge-light">95% Off</span></button>
+					<h4 class="card-title">Bootstrap</h4>
+						<p class="card-text">Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development contains CSS based design templates.</p>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<br><br>
+	<h2 class="text-primary">Recently Launched</h2>
+	
+	<div class="row ml-4">
+		<div class="card-columns">
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="html.jfif" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+				<button type="button" class="float-right btn btn-dark">$1 <small><strike>$100</strike></small> <span class="badge badge-light">99% Off</span></button>
+					<h4 class="card-title">HTML</h4>
+						<p class="card-text">HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+		
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="ruby.jfif" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+				<button type="button" class="float-right btn btn-dark">$25 <small><strike>$100</strike></small> <span class="badge badge-light">25% Off</span></button>
+					<h4 class="card-title">Ruby</h4>
+						<p class="card-text">Ruby is an interpreted, high-level, general-purpose programming language.</p>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+			
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="kotlin.jfif" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+				<button type="button" class="float-right btn btn-dark">$100 <small><strike>$200</strike></small> <span class="badge badge-light">50% Off</span></button>
+					<h4 class="card-title">Kotlin</h4>
+						<p class="card-text">Kotlin is a cross-platform, statically typed, general-purpose programming language.</p>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+<br><br><br>
+
+<ul class="pagination float-right">
+  <li class="page-item disabled"><a class="page-link" href="">Previous</a></li>
+  <li class="page-item active"><a class="page-link" href="homepage.html">1</a></li>
+  <li class="page-item"><a class="page-link" href="homepagenext.html">2</a></li>
+  <li class="page-item"><a class="page-link" href="courses.html">3</a></li>
+  <li class="page-item"><a class="page-link" href="homepagenext.html">Next</a></li>
+</ul>
+</div>	
+
+<div class="container-fluid">
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3> <span> Course Shop App  </span></h3>
+
+
+				<p class="footer-company-name">Course Shop App &copy; 2021</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>SCF 21 Janpath Market</span> Delhi, India</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 85282 95675</p>
+
+                                
+                                </div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">contact@courseshop.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Course Shop App is a worldwide e-learning platform for leaning programming languages for top instructors. 
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+				</div>
+
+			</div>
+
+		</footer>
+
+</div>		
+</body>
+</html>
+

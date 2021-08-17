@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.min.css" integrity="sha512-FEQLazq9ecqLN5T6wWq26hCZf7kPqUbFC9vsHNbXMJtSZZWAcbJspT+/NEAQkBfFReZ8r9QlA9JHaAuo28MTJA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="homepage.css">
+  <link rel="stylesheet" href="footer.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href=""><img src="logo.png" id="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#"></a>
+      </li>
+    </ul>
+	<ul class="navbar-nav mr-5 float-right">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          	<img src="myphoto.jpeg"  class="rounded-circle" id="profile">
+		</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="profile.html">Profile</a>
+          <a class="dropdown-item" href="mylearning.html">My Learning</a>
+          <a class="dropdown-item" href="enrolled.html">In Progress</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="index.html">Logout</a>
+        </div>
+      </li>
+	 </ul> 
+  </div>
+</nav>
+
+<br><br><br><br>
+<div class="container">
+	<h2 class="text-primary">Front-End</h2>
+	<div class="row ml-4">
+		<div class="card-columns">
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="Vue.jpg" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+					<button type="button" class="float-right btn btn-dark">$60 <small><strike>$100</strike></small> <span class="badge badge-light">40% Off</span></button>
+
+					<h4 class="card-title">Vue.js</h4>
+						<p class="card-text">Vue.js is an open-source model–view–viewmodel front end JavaScript framework widely used for building user interfaces and single-page applications.</p><br>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+		
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="Svelte.png" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+				<button type="button" class="float-right btn btn-dark">$10 <small><strike>$200</strike></small> <span class="badge badge-light">95% Off</span></button>
+					<h4 class="card-title">Svelte</h4>
+						<p class="card-text">Svelte is a free and open-source front end compiler created by Rich Harris and maintained by the Svelte core team members. Svelte applications do not include framework referencesv. </p>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+			
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="AngularJS.png" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+				<button type="button" class="float-right btn btn-dark">$250 <small><strike>$500</strike></small> <span class="badge badge-light">50% Off</span></button>
+					<h4 class="card-title">AngulrJS</h4>
+						<p class="card-text">AngularJS is a JavaScript-based open-source front-end web framework for developing single-page applications. It is maintained mainly by Google. </p><br>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+	<br><br>
+	<h2 class="text-primary">Back-End</h2>
+	
+	<div class="row ml-4">
+		<div class="card-columns">
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="Laravel.png" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+					<button type="button" class="float-right btn btn-dark">$160 <small><strike>$200</strike></small> <span class="badge badge-light">10% Off</span></button>
+					<h4 class="card-title">Laravel</h4>
+						<p class="card-text">Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller architectural pattern and based on Symfony. </p>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+		
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="Drupal.png" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+				<button type="button" class="float-right btn btn-dark">$100 <small><strike>$200</strike></small> <span class="badge badge-light">50% Off</span></button>
+				<h4 class="card-title">Drupal</h4>
+						<p class="card-text">Drupal is a free and open-source web content management system written in PHP and distributed under the GNU General Public License.</p><br><br>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+			
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="Mason.jpg" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+				<button type="button" class="float-right btn btn-dark">$10 <small><strike>$200</strike></small> <span class="badge badge-light">95% Off</span></button>
+					<h4 class="card-title">Mason</h4>
+						<p class="card-text">Mason is a web application framework written in Perl which is it a suitable backend for high-load sites serving dynamic content, such as online newspapers or database-driven e-commerce sites.</p><br>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<br><br>
+	<h2 class="text-primary">Database</h2>
+	
+	<div class="row ml-4">
+		<div class="card-columns">
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="sqlpython.jpg" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+				<button type="button" class="float-right btn btn-dark">$1 <small><strike>$100</strike></small> <span class="badge badge-light">99% Off</span></button>
+					<h4 class="card-title">Python/My SQL</h4>
+						<p class="card-text">Multiple libraries have been developed for this purpose that can be utilized. SQLite and MySQL are examples of these libraries.</p>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+		
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="phpsql.png" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+				<button type="button" class="float-right btn btn-dark">$25 <small><strike>$100</strike></small> <span class="badge badge-light">25% Off</span></button>
+					<h4 class="card-title">Php/My SQL</h4>
+						<p class="card-text">PHP is the most popular scripting language for web development. It is free, open source and server-side (the code is executed on the server)</p>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+			
+			<div class="card mt-2" style="width:300px">
+				<img class="card-img-top" src="sql.png" alt="Course Card" style="height:200px;">
+				<div class="card-body">
+				<button type="button" class="float-right btn btn-dark">$100 <small><strike>$200</strike></small> <span class="badge badge-light">50% Off</span></button>
+					<h4 class="card-title">My SQL</h4>
+						<p class="card-text">SQL (structured query language) is a language for specifying the organization of databases (collections of records). </p><br>
+						<a href="view.html" class="btn btn-primary">View Course</a>
+						<a href="buy.html" class="btn btn-primary">Buy Now</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+<br><br><br>
+
+<ul class="pagination float-right">
+  <li class="page-item"><a class="page-link" href="homepage.html">Previous</a></li>
+  <li class="page-item"><a class="page-link" href="homepage.html">1</a></li>
+  <li class="page-item active"><a class="page-link" href="homepagenext.html">2</a></li>
+  <li class="page-item"><a class="page-link" href="courses.html">3</a></li>
+  <li class="page-item"><a class="page-link" href="courses.html">Next</a></li>
+</ul>
+</div>	
+
+<div class="container-fluid">
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3> <span> Course Shop App  </span></h3>
+
+
+				<p class="footer-company-name">Course Shop App &copy; 2021</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>SCF 21 Janpath Market</span> Delhi, India</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 85282 95675</p>
+
+                                
+                                </div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">contact@courseshop.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Course Shop App is a worldwide e-learning platform for leaning programming languages for top instructors. 
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+				</div>
+
+			</div>
+
+		</footer>
+
+</div>		
+</body>
+</html>
+
